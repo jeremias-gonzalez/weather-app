@@ -1,6 +1,6 @@
 import React from 'react'
 import HeavyRain from './HeavyRain/HeavyRain'
-
+import Wind from './Wind/Wind'
 const Weather = () => {
   return (
     <div className='weather-container'>
@@ -19,7 +19,7 @@ const Weather = () => {
            <div className='sensacion-termica'>
             <p className='poppins-semibold'>Feels like 32°</p>
             <div className='wind-container'>
-                <img src="src/assets/wind.png" className='wind' alt="" />
+                <Wind/>
             </div>
            </div>
         </div>
