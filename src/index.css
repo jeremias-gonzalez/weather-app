@@ -1,0 +1,389 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+  background: hsla(171, 100%, 88%, 1);
+
+background: linear-gradient(360deg, hsla(171, 100%, 88%, 1) 18%, hsla(172, 50%, 85%, 1) 42%, hsla(142, 19%, 92%, 1) 65%, hsla(50, 50%, 98%, 1) 100%);
+
+background: -moz-linear-gradient(360deg, hsla(171, 100%, 88%, 1) 18%, hsla(172, 50%, 85%, 1) 42%, hsla(142, 19%, 92%, 1) 65%, hsla(50, 50%, 98%, 1) 100%);
+
+background: -webkit-linear-gradient(360deg, hsla(171, 100%, 88%, 1) 18%, hsla(172, 50%, 85%, 1) 42%, hsla(142, 19%, 92%, 1) 65%, hsla(50, 50%, 98%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C0FFF6", endColorstr="#C6ECE7", GradientType=1 );
+height: 100vh;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+@media (max-with:768px) {
+  
+}
+.navbar{
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 1rem 1rem 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1rem );
+  -webkit-backdrop-filter: blur( 1rem );
+  border-radius: 1rem;
+  margin: 0;
+  width: 70vw;
+  height: 90vh;
+  z-index: 1000;
+  position: absolute;
+  margin-left: -1.5rem;
+  margin-top: -2rem;
+ 
+}
+.toggler{
+  margin-top: -.2rem;
+  margin-left: 1rem;
+  
+  border-radius: 4rem;
+  padding: .5rem;
+  width: 50%;
+  
+}
+.li{
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.button{
+  width: 6.5%;
+  margin-top: -1.2rem;
+  margin-left: -.4rem;
+  position: absolute;
+  z-index: 10000;
+}
+.open-button{
+  
+  width: 15%;
+  
+}
+.myweatherapp{
+  display: flex;
+  align-items: center;
+}
+.text{
+  margin-right: 40%;
+  
+}
+.location{
+  display: flex;
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 .5rem 1rem 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 17px );
+  -webkit-backdrop-filter: blur( 17px );
+  border-radius: 2rem;
+  margin-left: 1.5rem;
+  width: 90vw;
+  height: 15vh;
+  
+}
+.center{
+  display: flex;
+  margin-left: 2rem;
+}
+h1{
+  font-size: .8rem;
+  
+}
+p{
+  font-size: .8rem;
+}
+.container-img-location{
+ margin-left: 30%;
+ margin-top: 1%;
+
+}
+.img-location{
+  width: 80%;
+  border-radius: 3rem;
+}
+.fecha{
+  margin-top: .1rem;
+  font-size: .7rem;
+}
+.ubicacion{
+  margin-top: 1rem;
+  
+}
+.weather-container{
+  display: flex;
+  background: hsla(171, 100%, 88%, 1);
+
+  background: linear-gradient(360deg, hsla(171, 100%, 88%, 1) 18%, hsla(172, 50%, 85%, 1) 42%, hsla(142, 19%, 92%, 1) 65%, hsla(50, 50%, 98%, 1) 100%);
+  
+  background: -moz-linear-gradient(360deg, hsla(171, 100%, 88%, 1) 18%, hsla(172, 50%, 85%, 1) 42%, hsla(142, 19%, 92%, 1) 65%, hsla(50, 50%, 98%, 1) 100%);
+  
+  background: -webkit-linear-gradient(360deg, hsla(171, 100%, 88%, 1) 18%, hsla(172, 50%, 85%, 1) 42%, hsla(142, 19%, 92%, 1) 65%, hsla(50, 50%, 98%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C0FFF6", endColorstr="#C6ECE7", GradientType=1 );
+  box-shadow: 0 1rem 1rem 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 17px );
+  -webkit-backdrop-filter: blur( 17px );
+  border-radius: 2rem;
+  width: 90vw;
+  height: 20vh;
+  margin-top: 7%;
+  margin-left: 1.5rem;
+  
+}
+.weather-container-container{
+  display: flex;
+  margin-left: 4rem;
+}
+.rain3d-container{
+  
+  margin-left: -3rem;
+  margin-top: -3.5rem;
+}
+.rain-img{
+  margin-left: -1.5rem;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px); /* Ajusta este valor para cambiar la altura del flotado */
+  }
+}
+.grados{
+  font-size: 5rem;
+  margin-left: 2rem;
+  margin-top: -1.2rem;
+}
+.heavyrain-container{
+  margin-left: 1.5rem;
+  margin-top: -.5rem;
+}
+.heavyrain{
+  font-size: 1rem;
+}
+.sensacion-termica{
+  margin-left: 2.2rem;
+  margin-top: -1rem;
+}
+.wind{
+  width: 37%;
+  margin-top: 1rem;
+}
+.today-container{
+margin-top: 2rem;
+margin-left: 2rem;
+}
+.days-texts-container{
+  display: flex;
+}
+.today{
+  font-size:1.5rem ;
+}
+.container-next-days{
+  margin-top: 2.5rem;
+  margin-left: 10rem;
+}
+.precipitaciones-container{
+ padding: 1rem;
+
+}
+.precipitaciones-container-container{
+  display: flex;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.porcentaje-de-lluvia{
+ 
+  
+  
+}
+.porcentaje-de-lluvia-img{
+  background: rgba(0, 255, 217, 0.303);
+  border-radius: 1rem;
+  margin-bottom: .5rem;
+  width: 30%;
+  margin-left: -1rem;
+}
+.velocidad{
+  position:relative ;
+  margin-top: 1.2rem;
+  
+}
+.velocidad-img{
+  background: rgba(0, 255, 217, 0.303);
+  border-radius: 1rem;
+  margin-bottom: .5rem;
+  height: 70%;
+}
+.humedad{
+ margin-top: .8rem;
+}
+.humedad-img{
+  background: rgba(0, 255, 217, 0.303);
+  border-radius: 1rem;
+  margin-bottom: .5rem;
+}
+.container-days{
+  display: flex;
+}
+.container-next-days{
+  display: flex;
+}
+.days{
+  margin-left: 1rem;
+}
+.img-arrow-next{
+  width: 10%;
+  height: 100%;
+  margin-top: -.3rem;
+  margin-left: 1rem;
+}
+.sunday{
+  background: rgb(5, 250, 213);
+
+  background: linear-gradient(360deg, rgb(3, 252, 215) 18%, rgb(5, 255, 222) 42%, rgb(1, 250, 109) 65%, hsla(50, 50%, 98%, 1) 100%);
+  
+  background: -moz-linear-gradient(360deg, rgb(4, 255, 217) 18%, rgb(7, 255, 222) 42%, hsla(142, 19%, 92%, 1) 65%, hsla(50, 50%, 98%, 1) 100%);
+  
+  background: -webkit-linear-gradient(360deg, hsla(171, 100%, 88%, 1) 18%, hsla(172, 50%, 85%, 1) 42%, hsla(142, 19%, 92%, 1) 65%, hsla(50, 50%, 98%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C0FFF6", endColorstr="#C6ECE7", GradientType=1 );
+  box-shadow: 0 1rem 1rem 0 rgba( 31, 38, 135, 0.37 );
+
+  border-radius: .5rem;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  width: 15%;
+  
+}
+.sun-day{
+  width: 30%;
+  margin-left: 1.2rem;
+}
+.sun-am{
+  margin-left: .8rem;
+}
+.grados-sun{
+  margin-left: 1.2rem;
+}
+/* 
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
