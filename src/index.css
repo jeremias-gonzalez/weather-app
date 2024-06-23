@@ -138,6 +138,7 @@ height: 100vh;
   position: absolute;
   margin-left: -1.5rem;
   margin-top: -2rem;
+  transition: all ease 1s;
  
 }
 .toggler{
@@ -331,6 +332,7 @@ margin-left: 2rem;
 }
 .container-days{
   display: flex;
+  
 }
 .container-next-days{
   display: flex;
@@ -355,7 +357,8 @@ margin-left: 2rem;
   
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C0FFF6", endColorstr="#C6ECE7", GradientType=1 );
   box-shadow: 0 1rem 1rem 0 rgba( 31, 38, 135, 0.37 );
-
+  display: flex;
+  flex-direction: column;
   border-radius: .5rem;
   margin-left: 2.5rem;
   margin-top: 1rem;

@@ -1,11 +1,12 @@
 import React from 'react'
+import HeavyRain from './HeavyRain/HeavyRain'
 
 const Weather = () => {
   return (
     <div className='weather-container'>
         <div className='weather-container-container'>
         <div className='rain3d-container'>
-            <img className='rain-img' src="src/assets/heavyrain.png" alt="" />
+            <HeavyRain/>
                 <div className='heavyrain-container'>
                      <p className='poppins-bold heavyrain'>Heavy Rain</p>
                      <p className='poppins-semibold'>Tonight</p>
