@@ -1,4 +1,5 @@
 import React from 'react'
+import LocationImg from './LocationImg/LocationImg'
 
 const Location = () => {
   return (
@@ -14,7 +15,7 @@ const Location = () => {
         </div>
         </div>
         <div className='container-img-location'>
-            <img src="src/assets/file.png" className='img-location' alt="" />
+           <LocationImg/>
         </div>
         </div>
     </div>
